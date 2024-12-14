@@ -4,6 +4,7 @@ body {
 	background-color: #fff;
 	color: #1D3557;
 	font-family: 'Noto Sans Telugu', 'Noto Sans', sans-serif;
+	margin: 0;
 }
 
 .page-font {
@@ -16,7 +17,7 @@ body {
 }
 
 .navigator a {
-	text-decoration: none;
+	text-decoration-color: #1D3557;
 	padding: 1rem 2rem;
 	background-color: #1D3557;
 	color: #fff;
@@ -32,4 +33,13 @@ body {
 .surah-list{
 	display: flex;
 	flex-wrap: wrap;
+}
+
+.surah-page-header{
+	background-color: #1D3557;
+	color: #fff;
+	padding: 1rem;
+	width: 100%;
+	position: sticky;
+	top: 0;
 }
