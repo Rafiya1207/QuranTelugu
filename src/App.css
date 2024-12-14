@@ -1,12 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+
 body {
-	background-color: #F3EED9;
-	color: #5D5B52;
+	background-color: #fff;
+	color: #1D3557;
+	font-family: 'Noto Sans Telugu', 'Noto Sans', sans-serif;
 }
 
 .page-font {
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 1.2rem;
-	line-height: 30px;
 }
 
 .navigator {
@@ -16,15 +18,14 @@ body {
 .navigator a {
 	text-decoration: none;
 	padding: 1rem 2rem;
-	background-color: #5D5B52;
-	color: #F3EED9;
+	background-color: #1D3557;
+	color: #fff;
 	border-radius: 5px;
 }
 
 @media screen and (max-width:600px) {
 	.page-font {
 		font-size: 1.5rem;
-		line-height: 40px;
 	}
 }
 

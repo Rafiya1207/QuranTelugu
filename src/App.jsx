@@ -9,7 +9,7 @@ function App() {
     <>
       <Routes>
 				<Route path='/QuranTelugu' element={<Home />} />
-				<Route path='/:id' element={<SurahPage />} />
+				<Route path='/QuranTelugu/:id' element={<SurahPage />} />
 			</Routes>
     </>
   )

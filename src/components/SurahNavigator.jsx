@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 const SurahNavigator = ({surah}) => {
 	return (
 		<div className="navigator">
-			<Link to={`/${surah.name}`} state={surah}>{surah.name}</Link>
-			{/* {surah.name} */}
+			<Link to={`/QuranTelugu/${surah.name}`} state={surah}>{surah.name}</Link>
 		</div>
 	)
 };
