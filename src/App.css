@@ -10,7 +10,7 @@ body {
 }
 
 .navigator {
-	margin: 4rem 2rem;
+	margin: 2rem;
 }
 
 .navigator a {
@@ -26,4 +26,9 @@ body {
 		font-size: 1.5rem;
 		line-height: 40px;
 	}
+}
+
+.surah-list{
+	display: flex;
+	flex-wrap: wrap;
 }
